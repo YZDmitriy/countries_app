@@ -3,7 +3,7 @@ import { SET_LOADING, SET_COUNTRIES, SET_ERROR } from './countries-actions';
 const initialState = {
   status: 'idle', // loading | received | rejected
   error: null,
-  lost: [],
+  list: [],
 };
 
 export const countriesReducer = (state = initialState, { type, payload }) => {
