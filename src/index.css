@@ -40,3 +40,8 @@ body {
   font-weight: var(--fw-light);
   background-color: var(--colors-bg);
 }
+
+.clickTheme {
+  display: flex;
+  align-items: center;
+}
