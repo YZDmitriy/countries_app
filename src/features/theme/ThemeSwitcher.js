@@ -9,8 +9,7 @@ const ModeSwitcher = styled.div`
 `;
 
 function ThemeSwitcher(props) {
- 
-const [theme, toggleTheme] =useTheme()
+  const [theme, toggleTheme] = useTheme();
 
   return (
     <ModeSwitcher onClick={toggleTheme}>
