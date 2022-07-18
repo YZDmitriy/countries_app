@@ -14,5 +14,5 @@ export const useTheme = () => {
     document.body.setAttribute('data-theme', theme);
   }, [theme]);
 
-  return [theme, toggleTheme];
+  return [theme, toggleTheme ];
 };
