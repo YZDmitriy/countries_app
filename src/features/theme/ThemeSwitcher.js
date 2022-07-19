@@ -9,7 +9,7 @@ const ModeSwitcher = styled.div`
   text-transform: capitalize;
 `;
 
-function ThemeSwitcher(props) {
+export const ThemeSwitcher = () =>  {
   const [theme, toggleTheme] = useTheme();
 
   return (
@@ -23,5 +23,3 @@ function ThemeSwitcher(props) {
     </ModeSwitcher>
   );
 }
-
-export default ThemeSwitcher;

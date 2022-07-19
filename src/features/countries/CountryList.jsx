@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 import { selectControls } from '../controls/controls-slice';
 import { loadCountries, selectCountriesInfo, selectVisibleCountries } from './countries-slice';
 
-function CountryList(props) {
+export const CountryList = () => {
   const navigate = useNavigate();
 
   const dispatch = useDispatch();
@@ -63,5 +63,3 @@ function CountryList(props) {
     </>
   );
 }
-
-export default CountryList;
