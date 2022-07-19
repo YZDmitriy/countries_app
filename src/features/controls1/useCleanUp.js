@@ -6,5 +6,5 @@ export const useCleanUp = () => {
 
   const cleanUp = () => dispatch(clearControls());
 
-  return cleanUp;
+  return () => dispatch(cleanUp());
 };

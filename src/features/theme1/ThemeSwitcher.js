@@ -1,5 +1,6 @@
 import { IoMoon, IoMoonOutline } from 'react-icons/io5';
-import styled, { useTheme } from 'styled-components';
+import styled from 'styled-components';
+import { useTheme } from './useTheme';
 
 const ModeSwitcher = styled.div`
   color: var(--colors-text);
